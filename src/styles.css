@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+/* Dark Mode Styles */
+body.dark {
+    background-color: #1a202c;
+    color: #cbd5e0;
+}
+
+body.dark h1, body.dark h2 {
+    color: #e2e8f0;
+}
+
+body.dark .bg-white {
+    background-color: #2d3748;
+}
+
+body.dark .text-gray-600 {
+    color: #a0aec0;
+}
+
+body.dark .text-gray-800 {
+    color: #e2e8f0;
+}
+
+body.dark .bg-gray-200 {
+    background-color: #4a5568;
+}
+
+body.dark .bg-green-600 {
+    background-color: #48bb78;
+}
+
+body.dark .text-green-600 {
+    color: #48bb78;
+}
+
+body.dark .text-green-950 {
+    color: #68d391;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+.project {
+    transition: background-color 0.3s, transform 0.2s;
+}
+.project:hover {
+    transform: scale(1.03);
+}
+
+button {
+    transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+    transform: scale(1.05);
+}
+
+section {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .w-1/2 {
+        width: 100%;
+    }
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+}
+
+.skysync{
+background: linear-gradient(to right, #0fabca, #ca0bca );
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.queuebridge{
+    background: linear-gradient(to right, red, purple );
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+
+
+
+
+#loading-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid green;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.glow{
+    color: #4a5568;
+    animation: glow 10s linear infinite;
+}
+
+@keyframes glow{
+    0%{text-shadow: 0 0 5px blue}
+    10% { text-shadow: 0 0 5px green }
+    50% { text-shadow: 0 0 5px orange }
+    75% { text-shadow: 0 0 10px red }
+    100% { text-shadow: 0 0 5px yellow }
+}
+
+.leFadeInRight span { animation-name: leFadeInRight }
+@keyframes leFadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    to { opacity: 1 }
+}
