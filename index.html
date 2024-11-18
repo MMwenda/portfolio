@@ -12,7 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
   </head>
-<body class="transition duration-500 w-full">
+<body class="transition duration-500 w-full ">
   <div id="loading-screen" class="fixed inset-0 flex items-center justify-center bg-white z-50">
     <div class="loader"></div>
     <div class="cssanimation leFadeInRight sequence text-2xl"> WELCOME </div>
@@ -53,6 +53,23 @@
           <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-2xl">
             MY SKILLS
           </button>
+        <div class="relative inline-block text-left">
+          <div>
+            <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-2xl" id="dropdown-toggle">
+              <i class="fa-solid fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5" id="dropdown-menu">
+            <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-toggle">
+              <a href="https://en.wikipedia.org/wiki/HTML" class="block px-4 py-2 text-xl text-orange-700 " role="menuitem">HTML5</a>
+              <a href="https://en.wikipedia.org/wiki/CSS" class="block px-4 py-2 text-xl text-blue-700 " role="menuitem">CSS3</a>
+              <a href="https://en.wikipedia.org/wiki/JavaScript" class="block px-4 py-2 text-xl text-yellow-700 " role="menuitem">JavaScript</a>
+              <a href="https://en.wikipedia.org/wiki/MEAN" class="block px-4 py-2 text-xl text-green-600 " role="menuitem">MERN</a>
+            </div>
+          </div>
+        </div>
+
+
         </div>
       </div>
       <div class="w-1/2 relative">
@@ -133,7 +150,6 @@
 
         </div>
       </div>
-    </section>
     </section>
 
     <!-- CONTACT ME -->  
