@@ -917,7 +917,7 @@ video {
 
 body {
   font-family: "Sour Gummy", sans-serif;
-  background-color: brown;
+  margin: 0;
 }
 
 /* Dark Mode Styles */
