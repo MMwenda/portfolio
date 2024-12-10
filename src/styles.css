@@ -159,3 +159,39 @@ color: transparent;
     }
     to { opacity: 1 }
 }
+
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.moove{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+
+
+@keyframes appear2 {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.moove2{
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-ranfe :entry 0% cover 40%;
+}
