@@ -181,8 +181,8 @@ color: transparent;
 
 @keyframes appear2 {
     from{
-        opacity: 0;
-        transform: translateX(-100px);
+        opacity: 0.5;
+        transform: translateX(-50px);
     }
     to{
         opacity: 1;
