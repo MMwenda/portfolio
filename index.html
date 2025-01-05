@@ -1,229 +1,47 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Maurice Mwenda - Software Engineer</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/src/styles.css">
-    <link rel="stylesheet" href="/src/scrollbar.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/aae4edfe28.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
-  </head>
-
-  
-  <!-- Google tag (gtag.js) --> 
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-B3KLF5YWC1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B3KLF5YWC1');
-</script> -->
-
-<body class="transition duration-500 w-full ">
-
-  <p class=" text-3xl text-red-700 underline">[WEBSITE STILL UNDER CONSTRUCTION]</p>
-
-  <div id="loading-screen" class="fixed inset-0 flex items-center justify-center bg-white z-50">
-    <div class="loader"></div>
-    <div class="cssanimation leFadeInRight sequence text-2xl"> WELCOME </div>
-  </div>
-  <div class="p-8 bg-white shadow-lg rounded-lg">
-    <header class="flex justify-between items-center mb-8">
-      <h1 class="glow text-2xl font-bold cursor-pointer text-green-950" title="KAIZEN">カイゼン</h1>
-
-      <div class="flex space-x-4">
-        <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-2xl" id="theme-toggle">
-          <i class="fa-solid fa-moon" style="color: #B197FC;"></i>
-          <!--  Dark Mode
-          Light Mode -->
-        </button>
-      </div>
-    </header>
-    <main class="flex items-center mb-16">
-      <div class="w-1/2">
-        <h2 class="text-5xl text-gray-600">
-          HELLO, I AM
-        </h2>
-        <h1 class="text-8xl font-bold text-green-600 cursor-default">
-          MAURICE MWENDA.
-        </h1>
-        <h3 class="text-4xl text-gray-800">
-          I AM A
-          <span class="font-bold">
-            Software Developer, Student, AvGeek, TechGeek and Minimalist.
-          </span>
-        </h3>
-        <p class="text-gray-600 mt-4 text-3xl">
-          From Nairobi, Kenya. I have rich experience in Web & Software development, but I am still learning new things every day, and I am also a student at <a class="text-red-700 hover:text-red-600 active:text-red-400 underline" href="https://gomycode.com/ke/">GOMYCODE Kenya</a>.
-        </p>
-        <div class="mt-6">
-          <a href="/public/Curriculum Vitae.pdf" target="_blank" rel="noopener noreferrer" class="bg-green-600 text-white px-4 py-2 rounded-full mr-4 text-2xl">
-            <!-- rel="noreferrer" ensures that no information about the user's previous location is shared with the new page
-            grel="noopener" prevents the new page from accessing the window.opener object, safeguarding the original page from unwanted manipulation.-->
-            DOWNLOAD CV
-          </a>
-          <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-2xl">
-            MY SKILLS
-          </button>
-        <div class="relative inline-block text-left">
-          <div>
-            <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-2xl" id="dropdown-toggle">
-              <i class="fa-solid fa-caret-down"></i>
-            </button>
-          </div>
-          <div class="hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5" id="dropdown-menu">
-            <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-toggle">
-              <a href="https://en.wikipedia.org/wiki/HTML" class="block px-4 py-2 text-xl text-orange-700 " role="menuitem">• HTML5</a>
-              <a href="https://en.wikipedia.org/wiki/CSS" class="block px-4 py-2 text-xl text-blue-700 " role="menuitem">• CSS3 <br> (Bootstrap, Tailwind) </a>
-              <a href="https://en.wikipedia.org/wiki/JavaScript" class="block px-4 py-2 text-xl text-yellow-700 " role="menuitem">• JavaScript</a>
-              <a href="https://en.wikipedia.org/wiki/MEAN" class="block px-4 py-2 text-xl text-green-600 " role="menuitem">• M.E.R.N <br> (MongoDB, Express, React, NodeJS) </a>
-            </div>
-          </div>
-        </div>
-
-
-        </div>
-      </div>
-      <div class="w-1/2 relative">
-        <img alt="Profile Picture" class="rounded-full mx-auto" height="400" src="https://placehold.co/600x300" width="400"/>
-        <div class="absolute top-0 right-0 bg-white p-2 rounded-full shadow-lg">
-          <div class="text-center">
-            <p class="text-3xl font-bold">
-              12+
-            </p>
-            <p class="text-lg text-gray-600">
-              MONTHS OF EXPERIENCE
-            </p>
-          </div>
-        </div>
-        <div class="absolute bottom-0 right-0 bg-white p-2 rounded-full shadow-lg">
-          <div class="text-center">
-            <p class="text-3xl font-bold">
-              ---
-            </p>
-            <p class="text-lg text-gray-600">
-              COMPLETED PROJECTS
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
-    <section class="mb-16" id="about-me">
-      <h2 class="text-6xl font-bold mb-4 underline">
-        What Makes Me Tick
-      </h2>
-      <p class="text-gray-600 text-3xl">
-        Hey there! I'm Maurice Mwenda, a 19-year-old tech enthusiast who dove headfirst into the tech world in 2024 and hasn't looked back since. That same year, I joined <a class="text-red-700 hover:text-red-600 active:text-red-400 underline" href="https://gomycode.com/ke/">GOMYCODE Kenya</a>, where I'm still a student, navigating the ups and downs of tech life. Sure, I've hit a few bumps that delayed my graduation, but giving up? Not in my vocabulary! <br> I'm all about learning new things and teaming up with awesome people. 😁<br><br>
-        Oh, and did I mention I'm a <i>hardcore avgeek</i>? ✈️ The sound of a jet engine is music to my ears, and I can't get enough of everything aviation. When I'm not buried into coding this is the stuff that makes my day and one day, I hope to soar into that field too! 🚀
-      </p>
-    </section>
-
-    <!--PROJECTS-->
-    <section class="mb-16" id="my-projects">
-      <h2 class="text-6xl font-bold mb-4 underline">
-        My Projects
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="bg-gray-200 p-4 rounded-lg shadow-lg moove">
-          <img alt="SkySync Project" class="rounded-lg mb-4" src="/assets/skysync.png" />
-          <h3 class="text-4xl font-bold mb-2 skysync project cursor-pointer">
-            SkySync
-          </h3>
-          <p class="text-gray-600 text-3xl">
-            SkySync is a weather forecasting app, a personal project I started about a month ago <br>
-            <span class="text-red-700">[UNFINISHED]</span>
-          </p>
-        </div>
-        <div class="bg-gray-200 p-4 rounded-lg shadow-lg moove">
-          <img alt="To-Do List Project" class="rounded-lg mb-4" src="https://placehold.co/600x300" />
-          <h3 class="text-4xl font-bold mb-2 project cursor-pointer">
-            MakeAWish KE
-          </h3>
-          <p class="text-red-600 text-3xl">
-            ---
-          </p>
-        </div>
-        <div class="bg-gray-200 p-4 rounded-lg shadow-lg moove">
-          <img alt="Trine Moments Photography Project" class="rounded-lg mb-4" src="https://placehold.co/600x300" />
-          <h3 class="text-4xl font-bold mb-2 project cursor-pointer">
-            Trine Moments
-          </h3>
-          <p class="text-red-600 text-3xl">
-            ---
-          </p>
-        </div>
-        <div class="bg-gray-200 p-4 rounded-lg shadow-lg moove">
-          <img alt="WRITEBook Project" class="rounded-lg mb-4" src="https://placehold.co/600x300" />
-          <h3 class="queuebridge text-4xl font-bold mb-2 project cursor-pointer">
-            QueueBridge
-          </h3>
-          <p class="text-gray-600 text-3xl">
-            QueueBridge streamlines issue tracking and project management by enabling users to create, assign, and monitor tickets seamlessly.  <br>
-            <span class="text-red-700">[UNFINISHED]</span>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT ME -->  
-<section class="mb-16" id="contact-me">  
-  <h2 class="text-6xl font-bold mb-4 underline">Get Intouch</h2>  
-  <form id="contact-form" class="bg-gray-200 p-8 rounded-lg shadow-lg moove2">  
-    <div class="mb-4">  
-      <label class="block text-gray-800 mb-2 text-2xl" for="name">Name</label>  
-      <input class="w-full p-2 rounded-lg" id="name" name="name" type="text" required />  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Under Major Construction</title>  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">  
+    <style>  
+        body {  
+            background-color: black;  
+            color: white;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+            margin: 0;  
+            font-family: 'Montserrat', sans-serif;  
+            text-align: center;  
+        }  
+        h1 {  
+            background: linear-gradient(to right, #ff6a00, #ee0979);  
+            -webkit-background-clip: text;  
+            background-clip: text;  
+            -webkit-text-fill-color: transparent;  
+            font-size: 4em;  
+            margin: 0;  
+        }  
+        footer {  
+            position: absolute;  
+            bottom: 10px;  
+            width: 100%;  
+            text-align: center;  
+            font-size: 14px;  
+            color: white;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div>  
+        <h1>Under MAJOR Construction</h1>  
     </div>  
-    <div class="mb-4">  
-      <label class="block text-gray-800 mb-2 text-2xl" for="email">Email</label>  
-      <input class="w-full p-2 rounded-lg" id="email" name="email" type="email" required />  
-    </div>  
-    <div class="mb-4">  
-      <label class="block text-gray-800 mb-2 text-2xl" for="message">Message</label>  
-      <textarea class="w-full p-2 rounded-lg" id="message" name="message" rows="4" required></textarea>  
-    </div>  
-    <button class="bg-green-600 text-white px-4 py-2 rounded-full text-2xl" type="submit">  
-      Send Message  
-    </button>  
-  </form>  
-  <div id="response" class="mt-4 text-lg"></div> <!-- Response message area -->  
-</section>
-
-    <section class="mb-10 p-4 bg-white rounded-lg" id="my-contacts">
-      <div class="flex justify-center space-x-6">
-        <a class="text-gray-900 transition-transform transform hover:scale-110 hover:text-purple-500" href="https://github.com/MMwenda" target="_blank" rel="noopener noreferrer">
-          <i title="Github" class="fab fa-github fa-2x"></i>
-        </a>
-        <a class="text-gray-900 transition-transform transform hover:scale-110 hover:text-pink-500" href="https://www.instagram.com/maur1cemwenda" target="_blank" rel="noopener noreferrer">
-          <i title="Instagram" class="fab fa-instagram fa-2x"></i>
-        </a>
-        <a class="text-gray-900 transition-transform transform hover:scale-110 hover:text-blue-500" href="https://www.linkedin.com/in/maurice-mwenda-7b50222a5/" target="_blank" rel="noopener noreferrer">
-          <i title="Linkedin" class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a class="text-gray-900 transition-transform transform hover:scale-110 hover:text-gray-500" href="https://x.com/maur1cemwenda" target="_blank" rel="noopener noreferrer">
-          <i title="X" class="fa-brands fa-x-twitter fa-2x"></i>
-        </a>
-        <a class="text-gray-900 transition-transform transform hover:scale-110 hover:text-green-500" href="tel:+254799442143" target="_blank" rel="noopener noreferrer">
-          <i title="Phone" class="fas fa-phone fa-2x"></i>
-        </a>
-        <a class="text-gray-900 transition-transform transform hover:scale-110 hover:text-yellow-500" href="mailto:maur1cemmwenda@gmail.com" target="_blank" rel="noopener noreferrer">
-          <i title="Email" class="fas fa-envelope fa-2x"></i>
-        </a>
-      </div>
-    </section>
-    
-
-    <footer class="text-center mt-16">
-      <p class="text-gray-600">© 2024 Maurice Ndwiga Mwenda <span class="text-yellow-500 underline">[MnM]</span> . All rights reserved.</p> <br>
-       <p class=" text-3xl text-red-700 underline">[WEBSITE STILL UNDER CONSTRUCTION]</p>
+    <footer>  
+        <p>Construction by me</p>
+      <p >© 2024 Maurice Ndwiga Mwenda [MnM] . All rights reserved.</p> <br>
     </footer>
-  </div>
-  <script src="js/main.js"></script>
-  <script src="js/contact.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
-</body>
+</body>  
 </html>

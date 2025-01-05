@@ -852,6 +852,11 @@ video {
   color: rgb(194 65 12 / var(--tw-text-opacity));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
@@ -1100,6 +1105,42 @@ section {
   }
 }
 
+@keyframes appear {
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.moove{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
+
+@keyframes appear2 {
+  0%{
+    opacity: 0.1;
+    transform: translateX(-90px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.moove2{
+  animation: appear2 linear;
+  animation-timeline: view();
+  animation-ranfe :entry 0% cover 40%;
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1109,6 +1150,11 @@ section {
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .hover\:text-green-500:hover {
@@ -1134,11 +1180,6 @@ section {
 .hover\:text-yellow-500:hover {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .active\:text-red-400:active {
