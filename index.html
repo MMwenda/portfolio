@@ -17,16 +17,16 @@
             margin: 0;  
             font-family: 'Montserrat', sans-serif;  
             text-align: center;  
-            overflow: hidden; /* no scrollbars*/  
+            overflow: hidden;   
         }  
 
         .starry-background {  
-            position: fixed; /* background fixed */  
+            position: fixed;   
             top: 0;  
             left: 0;  
             width: 100%;  
             height: 100%;  
-            overflow: hidden; /* no scrollbars */	 
+            overflow: hidden; 	 
             z-index: 1; /*  stars behind the content */  
         }  
 
@@ -37,6 +37,24 @@
             opacity: 0.8; 
         }  
 
+        .beryl{  
+            position: absolute;  
+            bottom: 10px;  
+            left: 10px;  
+            font-size: 15px;  
+            color: red;  
+            z-index: 2;   
+        }
+
+        .yes{  
+            position: absolute;  
+            top: 10px;  
+            right: 10px;  
+            font-size: 8px;  
+            color: white;  
+            z-index: 2;   
+        }
+
         h1 {  
             background: linear-gradient(to right, #ff6a00, #ee0979);  
             -webkit-background-clip: text;  
@@ -44,7 +62,7 @@
             -webkit-text-fill-color: transparent;  
             font-size: 55px;   
             margin: 0;  
-            z-index: 2; /* text is above stars */  
+            z-index: 2;  /*  stars behind content */
         }  
 
         footer {  
@@ -54,7 +72,7 @@
             text-align: center;  
             font-size: 17px;   
             color: white;  
-            z-index: 2; /* footer is above stars */  
+            z-index: 2; 
         }  
 
         @media (max-width: 768px) {  
@@ -70,14 +88,21 @@
 
         @media (max-width: 480px) {  
             h1 {  
-                font-size: 50px;   
+                font-size: 46px;   
             }  
 
             footer {  
                 font-size: 10px;  
-                bottom: 3px;  
+                bottom: 60px;  
             }  
+
+            .beryl{  
+                font-size: 10px; 
+                left: 50px;
+                bottom: 20px; 
+            }
         }  
+
 
         @keyframes twinkle {  
             0%, 100% {  
@@ -91,6 +116,8 @@
 </head>  
 <body>  
     <div class="starry-background"></div>  
+    <p class="yes">...yes, they are stars</p>
+    <p class="beryl">! Shoutout to Beryl Forehead Makena Maina (single, not by choice) <br> {+254 700 794988} !</p>
     <div>  
         <h1>Under MAJOR Re-Construction</h1>  
     </div>  
