@@ -41,14 +41,18 @@
             opacity: 0.8; 
         }  
 
-        .yes{  
-            position: absolute;  
-            top: 10px;  
-            right: 10px;  
-            font-size: 8px;  
-            color: white;  
-            z-index: 2;   
-        }
+        .yes {  
+    position: absolute;  
+    top: 10px;  
+    right: 10px;  
+    font-size: 8px;  
+    color: white;  
+    z-index: 2;  
+    max-width: 40%; /* Prevents stretching across the entire top */  
+    text-align: right; /* Ensures text stays aligned right */  
+    word-wrap: break-word;  
+    white-space: normal; /* Allows wrapping */  
+}  
 
         h1 {  
             background: linear-gradient(to right, #ff6a00, #ee0979);  
@@ -80,10 +84,12 @@
             top: 10px;  
             right: 10px;  
             font-size: 5px;  
-            color: white;  
+            color: white; 
+            font-size: 12px; 
+            max-width: 50%; 
             z-index: 2;   
         }
-        
+
             footer {  
                 font-size: 10px;   
                 bottom: 50px;   
@@ -98,15 +104,15 @@
             .yes{  
             position: absolute;  
             top: 10px;  
-            right: 10px;  
+            right: 3px;  
             font-size: 5px;  
             color: white;  
             z-index: 2;   
         }
 
             footer {  
-                font-size: 8px;  
-                bottom: 5px;  
+                font-size: 6px;  
+                bottom: 10px;  
             }  
         }  
 
@@ -123,7 +129,7 @@
 </head>  
 <body>  
     <div class="starry-background"></div>  
-    <p class="yes">...Microsoft said "new state of matter", yea right Stark Industries</p>
+    <p class="yes">...Microsoft said "new state of matter", like yea right Stark Industries</p>
     <div>  
         <h1>Under MAJOR Re-Construction</h1>  
     </div>  
