@@ -1,5 +1,3 @@
-//yes, i used ai but i learned from it and did it myself😊
-
 const starField = document.querySelector('.starry-background');  
 const numberOfStars = 100;   
 
