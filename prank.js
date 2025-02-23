@@ -10,15 +10,18 @@ document.getElementById("prankButton").addEventListener("click", function() {
             "Error 404: Common sense not found.",
             "I bet you also microwave ice cream.",
             "STOP. Just stop. Go touch grass.",
-            "I’d explain it to you, but I left my crayons at home.",
-            "Looking for brain cells... still loading.",
+            "Be for real, you’re not that dumb.",
+            "I take that back, you are.",
+            "Looking for signs of brain cells...",
+            "...still searching.",
             "Imagine failing an IQ test with one question.",
             "You’re the reason we have warning labels.",
+            "Allow it man, just allow it.",
             "I’m sorry, I can’t help you.",
             "I’m not mad, just disappointed.",
             "You’re a special kind of stupid.",
             "I’m not saying you’re dumb, but...",
-            "your brain is defined by what will be displayed next"
+            "proof of your brain's existence will be defined by what will be displayed next"
     ];
     
     let prankMessage = document.getElementById("prankMessage");
