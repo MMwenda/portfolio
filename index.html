@@ -124,7 +124,32 @@
             50% {  
                 opacity: 0.4;  
             }  
-        }  
+        }
+
+        .prank-button {
+            background-color: red;
+            color: white;
+            font-size: 14px;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-family: 'Press Start 2P', sans-serif;
+            border-radius: 5px;
+            z-index: 2;
+        }
+
+        .prank-button:hover {
+            background-color: darkred;
+        }
+
+        .prank-message {
+            display: none;
+            color: red;
+            font-weight: bold;
+            margin-top: 15px;
+            font-size: 14px;
+        }
     </style>  
 </head>  
 <body>  
@@ -133,12 +158,16 @@
     <div>  
         <h1>Under MAJOR Re-Construction</h1>  
     </div>  
+
+    <button class="prank-button" id="prankButton">DO NOT CLICK</button>
+    <p class="prank-message" id="prankMessage"></p>
+ 
     <footer>  
         <p>Reconstruction by yours truly</p>  
         <p>© 2025 Maurice Mwenda [MnM]. <br> No rights reserved. {Go ahead, steal it. I dare you.}</p>
- 
     </footer>   
 
     <script src="stars.js"></script>  
+    <script src="prank.js"></script>
 </body>  
 </html>
