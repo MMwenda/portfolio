@@ -11,3 +11,9 @@ for (let i = 0; i < numberOfStars; i++) {
     star.style.animation = `twinkle ${Math.random() * 1 + 0.5}s infinite`;  
     starField.appendChild(star);  
 } 
+
+//make the button to appear after 5 seconds
+const uselessLink = document.querySelector('.useless-link');
+setTimeout(() => {
+    uselessLink.style.display = 'block';
+}, 28000)
